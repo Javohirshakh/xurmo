@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.indent{
-    margin: 0!important;
-    padding: 0!important;
+body{
+    overflow-x: hidden;
 }
-.container-fluid{
+.indent{
     margin: 0!important;
     padding: 0!important;
 }
@@ -73,21 +72,16 @@ header{
 }
 .main-content{
     margin-top: 30px;
-    background: red;
 }
-.main-content .col-md-3{
-    /* margin: 10px 30px 30px 10px!important; */
-    /* background: red; */
-    /* max-width: 300px; */
-    /* padding: 0 30px; */
-    background-color: blue;
+.main-content .col-sm-6 a:hover{
+    color: #FD4300!important;
 }
 .item{
+    margin: 0 10px 20px 10px!important;
     display: flex;
     flex-direction: column;
     color: black;
     text-decoration: none;
-    padding: 0 30px;
 }
 .item .item__img img{
     width: 100%;
